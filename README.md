@@ -1,15 +1,14 @@
-Hello guys,
-This is my kinda first project on github and I hope you guys will like it.
+### 👋 Hi there, I'm Himadri!
 
-You guys may use this product by downloading it and then running the files in the 'dist" folder .
+💻 I'm a passionate Web Developer & Computer Science student, currently pursuing a diploma in CSE with a focus on IoT at Arka Jain University, Jamshedpur.
 
-Useful steps 👎<br>
-on running main.exe you will find that a folder will get created. You have to add your video file in that folder (only one at a time) and don't forget to name it "video.mp4"
-because its kind off necessary else your video will not get detected and hence might cause some trouble. 
+🔧 I specialize in:
+- Full Stack Web Development (Frontend + Backend)
+- Hardware & IT troubleshooting
+- Building innovative tech solutions
 
-after adding the video file to your folder, just run main.exe again and it will do everything that is required and give you the desired output in the folder that
-the exe file is in.
+📁 I've completed 30+ projects, blending design with functionality, and love working on both creative and technical sides of development.
 
-Be happy<br>
-live happy<br>
-keep happy
+⚡ Interests: Coding, Gaming, Volleyball, Reading, Tech Fixes
+
+📫 Let’s connect & build something awesome together!
