@@ -1,0 +1,151 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07141B"/>
+      <stop offset="0.52" stop-color="#0B2633"/>
+      <stop offset="1" stop-color="#062B3A"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="0 0;18 -8;0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(930 125) rotate(90) scale(175 300)">
+      <stop stop-color="#19C7F4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#19C7F4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(280 290) rotate(-18) scale(330 100)">
+      <stop stop-color="#4DE1FF" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#4DE1FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="line" x1="730" y1="70" x2="1110" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64E6FF" stop-opacity=".15"/>
+      <stop offset=".5" stop-color="#20C8F1" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#64E6FF" stop-opacity=".12"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="clip">
+      <rect x="1" y="1" width="1198" height="318" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="22" fill="url(#bg)" stroke="#2A6578" stroke-opacity=".8"/>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#glowA)"/>
+    <rect width="1200" height="320" fill="url(#glowB)"/>
+
+    <!-- quiet grid -->
+    <g opacity=".055" stroke="#8DEBFF">
+      <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200"/>
+      <path d="M100 0V320M200 0V320M300 0V320M400 0V320M500 0V320M600 0V320M700 0V320M800 0V320M900 0V320M1000 0V320M1100 0V320"/>
+    </g>
+
+    <!-- moving ambient light -->
+    <rect x="-160" y="0" width="160" height="320" fill="#4DE1FF" opacity=".035">
+      <animate attributeName="x" from="-160" to="1200" dur="13s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- left content -->
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="72" y="74" fill="#68E5FF" font-size="13" font-weight="700" letter-spacing="4">
+        CELICULAR
+      </text>
+
+      <text x="70" y="145" fill="#F4FBFD" font-size="58" font-weight="750" letter-spacing="-2">
+        HIMADRI
+      </text>
+
+      <text x="73" y="181" fill="#66DDF8" font-size="18" font-weight="650" letter-spacing="2.6">
+        IT PRODUCTS ENGINEER
+      </text>
+
+      <text x="73" y="216" fill="#B4CBD2" font-size="15" font-weight="450">
+        Building software products from idea → architecture → shipped system.
+      </text>
+
+      <g transform="translate(73 246)">
+        <rect width="102" height="28" rx="14" fill="#0C3442" stroke="#277B90"/>
+        <circle cx="17" cy="14" r="4" fill="#55E6A5">
+          <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="30" y="18" fill="#D4F6FC" font-size="11" font-weight="600" letter-spacing=".7">BUILDING</text>
+
+        <rect x="114" width="82" height="28" rx="14" fill="#0C3442" stroke="#277B90"/>
+        <text x="132" y="18" fill="#D4F6FC" font-size="11" font-weight="600" letter-spacing=".7">AI + WEB</text>
+
+        <rect x="208" width="105" height="28" rx="14" fill="#0C3442" stroke="#277B90"/>
+        <text x="225" y="18" fill="#D4F6FC" font-size="11" font-weight="600" letter-spacing=".7">SYSTEMS</text>
+      </g>
+    </g>
+
+    <!-- abstract product/system animation -->
+    <g transform="translate(745 62)">
+      <!-- orbit -->
+      <ellipse cx="190" cy="98" rx="172" ry="78" stroke="#4DDFFF" stroke-opacity=".12" stroke-width="1">
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 190 98;360 190 98" dur="22s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="190" cy="98" rx="125" ry="125" stroke="#4DDFFF" stroke-opacity=".09" stroke-width="1">
+        <animateTransform attributeName="transform" type="rotate"
+          values="360 190 98;0 190 98" dur="17s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <!-- network -->
+      <g stroke="url(#line)" stroke-width="1.5">
+        <path d="M28 65L100 28L166 73L230 36L315 82"/>
+        <path d="M100 28L120 122L194 147L230 36"/>
+        <path d="M120 122L58 170L194 147L286 178"/>
+        <path d="M194 147L315 82"/>
+      </g>
+
+      <!-- moving signal -->
+      <circle r="3.2" fill="#7BEAFF" filter="url(#tinyGlow)">
+        <animateMotion dur="4.5s" repeatCount="indefinite"
+          path="M28 65L100 28L166 73L230 36L315 82"/>
+      </circle>
+      <circle r="2.4" fill="#C5F7FF">
+        <animateMotion dur="5.8s" begin="-2s" repeatCount="indefinite"
+          path="M58 170L120 122L194 147L286 178"/>
+      </circle>
+
+      <!-- nodes -->
+      <g fill="#0B2935" stroke="#53DDF9" stroke-width="1.5">
+        <circle cx="28" cy="65" r="5"><animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="100" cy="28" r="5"/>
+        <circle cx="166" cy="73" r="6"><animate attributeName="r" values="6;8;6" dur="2.1s" begin=".4s" repeatCount="indefinite"/></circle>
+        <circle cx="230" cy="36" r="5"/>
+        <circle cx="315" cy="82" r="6"><animate attributeName="r" values="6;8;6" dur="2.7s" begin=".8s" repeatCount="indefinite"/></circle>
+        <circle cx="120" cy="122" r="5"/>
+        <circle cx="194" cy="147" r="6"><animate attributeName="r" values="6;8;6" dur="2.3s" begin=".2s" repeatCount="indefinite"/></circle>
+        <circle cx="58" cy="170" r="4"/>
+        <circle cx="286" cy="178" r="4"/>
+      </g>
+
+      <!-- tiny labels -->
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#72CFE3" opacity=".72" letter-spacing="1">
+        <text x="5" y="51">IDEA</text>
+        <text x="145" y="62">BUILD</text>
+        <text x="242" y="28">SHIP</text>
+        <text x="300" y="102">SYSTEM</text>
+      </g>
+    </g>
+
+    <!-- subtle bottom sweep -->
+    <path d="M-40 302C220 248 430 330 700 285C920 248 1050 270 1240 230"
+      stroke="#48D9F7" stroke-opacity=".16" stroke-width="1.2" fill="none">
+      <animate attributeName="stroke-opacity" values=".06;.24;.06" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
