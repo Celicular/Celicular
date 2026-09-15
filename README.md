@@ -22,7 +22,6 @@
 
 ---
 
-
 <div align="center">
 
 ### 🛠️ Stack
@@ -34,10 +33,9 @@
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Celicular&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Celicular&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://streak-stats.demolab.com/?user=Celicular&theme=tokyonight&hide_border=true" height="150"/>
 </p>
 
 <p align="center">
-  <i>Build useful things. Ship them.</i> 🚀
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Build%20useful%20things.%20Ship%20them.&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=65" width="100%" alt="Build useful things. Ship them."/>
 </p>
