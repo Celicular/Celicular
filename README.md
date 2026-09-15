@@ -1,81 +1,49 @@
 <p align="center">
-  <img src="./himadri-v2-banner.svg" width="100%" alt="Himadri Celicular — IT Products Engineer">
-</p>
-
-<h3 align="center">IT Products Engineer · Software · AI · Systems</h3>
-
-<p align="center">
-  I design and build software products from idea → architecture → shipped system.
-  <br/>
-  I like useful products, clean interfaces, AI experiments, and systems that actually work.
+  <img src="./himadri-v2-banner.svg" width="100%" alt="Himadri — IT Products Engineer">
 </p>
 
 <p align="center">
-  <a href="https://github.com/Celicular">GitHub</a>
-  ·
-  <a href="https://gardenqr.celi.me">GardenQR</a>
-  ·
-  <a href="https://hswebsolution.onrender.com">Web</a>
+  <b>IT Products Engineer</b> · Software · AI · Systems
 </p>
 
-⚡ What I Build
+<p align="center">
+  I build products, experiment with AI, and turn ideas into shipped software.
+</p>
 
-Product systems — CRM, ERP, SaaS and internal business platforms
+<p align="center">
+  <a href="https://github.com/Celicular">GitHub</a> ·
+  <a href="https://github.com/Celicular/GardenQR">GardenQR</a> ·
+  <a href="https://github.com/Celicular/Clarity-ERP">Clarity ERP</a>
+</p>
 
-AI-powered tools — NLP, local LLMs, embeddings, speech and automation
+⚡ What I do
 
-Interactive web experiences — 3D, WebGL, animation and experimental interfaces
+Build products · SaaS · CRM/ERP · AI tools · 3D web · automation
 
-Developer tooling — APIs, MCP servers, integrations and infrastructure
-
-🚀 Selected Work
-
-Product
-
-What it is
-
-Clarity ERP
-
-Enterprise-style CRM / ERP platform for IT operations
+🚀 Featured
 
 GardenQR
+Interactive 3D QR experiences · Three.js · GSAP
 
-Interactive 3D voxel worlds that turn URLs into living, scannable QR experiences
-
-Celi-Cap2Easy
-
-Desktop video captioning tool using Whisper, custom caption presets and FFmpeg
-
-TechDx404 NLP
-
-AI/NLP content moderation pipeline for detecting harmful speech
+Clarity ERP
+CRM / ERP platform · Full product architecture
 
 Let's Learn
-
-Local-first AI learning platform with RAG, quizzes, flashcards and analytics
+AI learning platform · RAG · local AI
 
 Miro MCP
+Miro → context for AI coding agents
 
-MCP server that turns Miro architecture boards into context for AI coding agents
-
-🧰 Technologies
+🛠️ Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,python,typescript,javascript,html,css,tailwind,vite,threejs" alt="Frontend and web technologies" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,nodejs,python,postgres,mongodb,docker,threejs,tailwind,git" alt="React, Next.js, TypeScript, JavaScript, Node.js, Python, PostgreSQL, MongoDB, Docker, Three.js, Tailwind and Git">
 </p>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,docker,git,github,shopify" alt="Backend, database and tooling technologies" />
+  <sub>Also: FastAPI · Django · GSAP · FFmpeg · Whisper · MCP · Shopify · Medusa · ChromaDB</sub>
 </p>
-
-Also working with: FastAPI · Django · GSAP · PyQt6 · FFmpeg · OpenAI Whisper · Mistral · ChromaDB · SentenceTransformers · MCP · Miro API
-
-🧠 Current Interests
-
-AI products · agentic tooling · local AI · 3D web · product architecture · automation · scalable systems
-
-Build useful things. Make them feel good. Ship them.
 
 <p align="center">
-  <sub>Always building something.</sub>
+  <i>Build useful things. Ship them.</i>
 </p>
