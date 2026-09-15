@@ -22,40 +22,6 @@
 
 ---
 
-<table align="center">
-<tr>
-<td width="33%" align="center">
-
-**🌿 GardenQR**
-Interactive 3D QR experiences
-<sub>Three.js · GSAP</sub>
-
-</td>
-<td width="33%" align="center">
-
-**🏢 Clarity ERP**
-Full-stack CRM / ERP platform
-<sub>Architecture · Ops</sub>
-
-</td>
-<td width="33%" align="center">
-
-**🧠 Let's Learn**
-AI learning platform
-<sub>RAG · Local AI</sub>
-
-</td>
-</tr>
-<tr>
-<td colspan="3" align="center">
-
-**🔌 Miro MCP** — Miro → context for AI coding agents
-
-</td>
-</tr>
-</table>
-
----
 
 <div align="center">
 
